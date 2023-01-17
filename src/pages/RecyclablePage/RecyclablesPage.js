@@ -1,5 +1,6 @@
 import "./RecyclablePage.scss";
 import Category from "../../components/CategoryCard/Category";
+import React from "react";
 
 let submitReducePlasticStatus = false;
 let submitClothingStatus = false;

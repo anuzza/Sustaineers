@@ -1,6 +1,7 @@
 import "./EnergyPage.scss";
 import Category from "../../components/CategoryCard/Category";
 import Footer from "../../components/Footer/Footer";
+import React from "react";
 
 let submitElectricityStatus = false;
 let submitWaterStatus = false;
@@ -9,8 +10,6 @@ let values = [];
 let totalpoints = 0;
 
 function EnergyPage() {
-
-
   const onSubmitHandler = (e) => {
     e.preventDefault();
 
@@ -24,7 +23,6 @@ function EnergyPage() {
     totalpoints = values.length * 100;
     values = [];
     console.log("after", totalpoints);
-
   };
   return (
     <div>

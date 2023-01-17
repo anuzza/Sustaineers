@@ -1,5 +1,6 @@
 import "./FoodPage.scss";
 import Category from "../../components/CategoryCard/Category";
+import React from "react";
 
 let submitLocalStatus = false;
 let submitFoodWasteStatus = false;

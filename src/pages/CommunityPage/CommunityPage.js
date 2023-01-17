@@ -1,17 +1,15 @@
-import './CommunityPage.scss';
+import "./CommunityPage.scss";
 import { AiTwotoneStar } from "react-icons/ai";
-import UserCard from '../../components/UserCard/UserCard';
-
-
-
-
-
+import UserCard from "../../components/UserCard/UserCard";
+import React from "react";
 
 function CommunityPage() {
   return (
-    <div className='community'>
-      <h1 className='community__title'>Get inspired by people in your community!</h1>
-      <div className='user__card-container'>
+    <div className="community">
+      <h1 className="community__title">
+        Get inspired by people in your community!
+      </h1>
+      <div className="user__card-container">
         <UserCard linkName={"user1"} />
         <UserCard linkName={"user2"} />
         <UserCard linkName={"user3"} />

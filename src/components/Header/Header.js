@@ -1,4 +1,5 @@
 import "./Header.scss";
+import React from "react";
 import { Link, withRouter } from "react-router-dom";
 import logo from "../../assets/logo.png";
 import { CgProfile } from "react-icons/cg";

@@ -1,5 +1,6 @@
 import "./HomePage.scss";
 import HomeCard from "../../components/HomeCard/HomeCard";
+import React from "react";
 
 function HomePage() {
   return (
